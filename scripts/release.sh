@@ -20,7 +20,9 @@ VERSION="$(plutil -extract CFBundleShortVersionString raw "$ROOT/app/Info.plist"
 
 "$ROOT/scripts/build.sh" --whisper
 [[ "$(lipo -archs "$APP/Contents/MacOS/Pusmogo")" == "arm64" ]] || { echo "expected an arm64 build" >&2; exit 1; }
-codesign -dvv "$APP" 2>&1 | grep -q "Authority=Developer ID Application" || { echo "not signed with Developer ID" >&2; exit 1; }
+# Read the whole output first: grep -q under pipefail would kill codesign with SIGPIPE.
+SIGNATURE="$(codesign -dvv "$APP" 2>&1)"
+grep -q "Authority=Developer ID Application" <<<"$SIGNATURE" || { echo "not signed with Developer ID" >&2; exit 1; }
 
 # Fails unless Apple accepts the file.
 notarise() {

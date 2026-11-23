@@ -8,6 +8,8 @@ Free, open-source voice dictation for macOS, Hungarian first. Hold a key, speak 
 
 Made by [vatson.ai](https://vatson.ai).
 
+[![Download for Mac (Apple Silicon)](https://img.shields.io/badge/Download_for_Mac-Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/clausis-ai/pusmogo/releases/latest/download/Pusmogo.dmg)
+
 > **Status:** beta, for Macs with Apple Silicon. Download it from [Releases](https://github.com/clausis-ai/pusmogo/releases/latest), or build it from source as below.
 
 *Magyarul lent: [Röviden magyarul](#röviden-magyarul).*
