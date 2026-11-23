@@ -1,0 +1,25 @@
+[package]
+name = "pusmogo-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[features]
+default = []
+# Real speech engine: whisper.cpp with Metal. Needs cmake.
+whisper = ["dep:whisper-rs"]
+# WAV file reading for the MCP server and the bench (not needed by the app).
+wav = ["dep:hound"]
+
+[dependencies]
+hound = { version = "3", optional = true }
+rusqlite = { version = "0.32", features = ["backup"] }
+# Editing AI apps' MCP config files without reordering or reformatting their content.
+serde_json = { version = "1", features = ["preserve_order", "arbitrary_precision"] }
+# Hungarian spelling repair (spell.rs): Hunspell dictionaries in Rust, MPL-2.0, and their gzip files.
+spellbook = "0.4"
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+whisper-rs = { version = "0.15", optional = true, features = ["metal"] }

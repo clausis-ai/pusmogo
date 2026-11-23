@@ -1,0 +1,86 @@
+# Hungarian language pack for the rule-based cleanup (`cleanup.rs`).
+# Compiled into the core with `include_str!`; see docs/adding-a-language.md.
+# Words are lower case and without punctuation.
+
+language = "hu"
+
+# Hesitation sounds that are dropped. Never real discourse words such as
+# "hát", "szóval", "tehát" or "ugye".
+fillers = ["ö", "öö", "ööö", "öööö", "öm", "ömm", "öhm", "őő", "őőő", "hm", "hmm", "hmmm", "mm", "mhm"]
+
+# Short function words whose immediate repetition is always a stutter.
+# Words that can legitimately repeat ("nagyon nagyon") stay out.
+stutter_words = ["a", "az", "és", "hogy", "de", "vagy", "ha", "mert"]
+
+# Abbreviations that end with a full stop but do not end a sentence.
+abbreviations = [
+    "pl", "stb", "kb", "ill", "ún", "vö", "dr", "id", "ifj", "özv", "sz", "u", "krt",
+    # company forms
+    "kft", "zrt", "nyrt", "bt", "kkt", "rt",
+    # counts, phone numbers, references: "5 db. alma", "tel. számon", "ld. lent"
+    "db", "tel", "ld",
+]
+
+# Abbreviations that only count as such in lower case ("max. öt perc").
+lowercase_abbreviations = ["max", "min"]
+
+# Words that make the next word a noun, not a spoken command ("a vessző",
+# "egy új sor a táblázatban").
+noun_markers = ["a", "az", "egy", "ez", "ezt", "azt"]
+
+# Commands that are also everyday words ("pont úgy"): they count only at the
+# end of the dictation, before Whisper's own punctuation or before another
+# command.
+ambiguous_marks = ["pont"]
+
+# Words whose full stop stays when a casual style drops the final full stop of
+# a message ("Hozd a tejet, kenyeret stb."). Kept apart from `abbreviations`
+# so a word like "no" ends a casual message without a stop.
+keep_final_stop = ["stb", "kb", "pl", "ill", "ún", "u", "kft", "bt", "zrt", "nyrt", "dr"]
+
+# Number and date words, used to spot spoken self-corrections
+# ("háromkor, nem, négykor"). A Hungarian number word is built from
+# `number_parts` and may end in one of `number_endings` ("" means none).
+# Stems such as "hárm" and "het" are the forms before an ending.
+number_parts = [
+    "egy", "kettő", "két", "három", "hárm", "négy", "öt", "hat", "hét", "het", "nyolc", "kilenc",
+    "tíz", "tizen", "húsz", "huszon", "harminc", "negyven", "ötven", "hatvan", "hetven",
+    "nyolcvan", "kilencven", "száz", "ezer", "millió", "másfél", "fél",
+]
+number_endings = [
+    "kor", "ig", "ra", "re", "ról", "ről", "tól", "től", "ból", "ből", "ban", "ben", "ba", "be",
+    "nak", "nek", "val", "vel", "szor", "szer", "ször", "at", "et", "ot", "öt", "as", "es", "os",
+    "ös", "an", "en", "on", "ön", "n", "t", "",
+]
+# Days, months and times of day as stems: a word starting with one counts.
+when_stems = [
+    "hétf", "kedd", "szerd", "csütörtök", "péntek", "szombat", "vasárnap", "holnap", "tegnap",
+    "január", "február", "márci", "április", "május", "június", "július", "augusztus",
+    "szeptember", "október", "november", "december", "reggel", "délelőtt", "délután", "este",
+]
+# Short words matched whole (a stem would catch too much).
+when_words = ["ma"]
+
+# Spoken punctuation and layout commands. Each key names a mark (the names are
+# listed in `cleanup.rs`), each value is what the speaker says: lower case,
+# words separated by one space. Misspellings are what Whisper writes for the
+# commands (long consonants come out short, "s" as "z").
+[marks]
+paragraph = ["új bekezdés"]
+line = ["új sor", "újsor"]
+question = ["kérdőjel", "kérdő jel"]
+exclamation = ["felkiáltójel", "felkiáltó jel"]
+colon = ["kettőspont", "kettős pont", "ketőspont", "ketős pont"]
+semicolon = ["pontosvessző", "pontos vessző", "pontosvesző", "pontozvesző", "pontos vesző"]
+comma = ["vessző", "vesző"]
+full_stop = ["pont"]
+
+# Spoken brackets and quotes. An opening mark joins the next word, a closing
+# mark the previous one; a plain quote key opens or closes. Hungarian quotes
+# are „…”.
+[paired]
+open_paren = ["nyitó zárójel", "nyító zárójel", "mitó zárójel", "mító zárójel", "nyitózárójel"]
+close_paren = ["záró zárójel", "zárózárójel"]
+open_low_quote = ["nyitó idézőjel", "nyító idézőjel"]
+close_low_quote = ["záró idézőjel", "idézőjel vége"]
+low_quote = ["idézőjel"]

@@ -1,0 +1,31 @@
+# Head-to-head phrases: id<TAB>subset<TAB>lang<TAB>reference. Read them aloud in this order.
+hu01	hu	hu	Holnap reggel hívj fel, légy szíves.
+hu02	hu	hu	Kávét vagy teát kérsz?
+hu03	hu	hu	Lehet, hogy egy kicsit később érek haza.
+hu04	hu	hu	Rendben, akkor hétfőn találkozunk.
+hu05	hu	hu	Hétfőn vagy kedden lesz a megbeszélés?
+hu06	hu	hu	Hozd el a laptopot és a töltőt is.
+hu07	hu	hu	Láttad már a legújabb levelet?
+hu08	hu	hu	Rossz hírem van, ma nem tudok menni.
+hu09	hu	hu	Busszal vagy vonattal mész Debrecenbe?
+hu10	hu	hu	Köszönöm szépen, nagyon hasznos volt.
+hu11	hu	hu	Ha ráérsz, nézd át a jegyzeteimet.
+hu12	hu	hu	Lassan indulnunk kell, mert lekéssük a vonatot.
+hu13	hu	hu	Rögtön jövök, csak leteszem a telefont.
+hu14	hu	hu	Itt vagy ott várjalak a bejáratnál?
+hu15	hu	hu	Hány órakor kezdődik a holnapi edzés?
+te01	tech	hu	Pusholtam a fixet, nézd meg a pull requestet.
+te02	tech	hu	A deploy után elszállt a build a staging szerveren.
+te03	tech	hu	Írj egy unit tesztet erre a függvényre.
+te04	tech	hu	Frissítsd a README-t, és írd bele, hol van az API kulcs.
+te05	tech	hu	A Docker konténer nem indul, nézd meg a logokat.
+te06	tech	hu	Ezt a feature-t a következő sprintben csináljuk meg.
+te07	tech	hu	A frontend React, a backend Node.js.
+te08	tech	hu	Mergeld be a branchet, ha zöld a CI.
+te09	tech	hu	Küldd át a Figma linket Slacken.
+te10	tech	hu	A JSON válaszban hiányzik a user ID.
+en01	en	en	Can you send me the slides before the meeting?
+en02	en	en	I will be there in about ten minutes.
+en03	en	en	Let's move the call to Thursday afternoon.
+en04	en	en	Do you want coffee or tea?
+en05	en	en	Please review the pull request when you have a moment.

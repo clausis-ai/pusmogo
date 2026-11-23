@@ -1,0 +1,30 @@
+Tegnap pusholtam a branchet, de a build még mindig piros.
+Csináltam egy pull requestet, nézd meg, ha ráérsz.
+A deploy után a staging környezet lehalt.
+Mergeltem a feature branchet a mainbe.
+Írj egy unit testet erre a függvényre.
+A backend API lassan válaszol, nézzük meg a logokat.
+Frissítettem a dependency-ket, és most elszállt a CI.
+Küldd át a Figma linket a Slacken.
+A meetinget áttettem a Google Calendarban.
+A frontend React komponensei még nincsenek tesztelve.
+Nyitottam egy issue-t a GitHubon erről a bugról.
+A Docker image túl nagy, optimalizálni kéne.
+Rebase-eld a branchedet, mert konfliktus van.
+A sprint review csütörtökön lesz, a retro pénteken.
+A product owner szerint ez a feature nem fér bele.
+Lefuttattam a benchmarkot, a latency javult.
+A database migration még nem futott le productionben.
+Kérlek, review-zd a kódot, mielőtt mergelem.
+A dashboardon látszik, hogy nőtt a churn.
+Beállítottam az onboarding e-mailt a Mailchimpben.
+A cache invalidálás nem működik rendesen.
+Csinálj egy screenshotot a hibaüzenetről.
+A cloud költségeink ebben a hónapban megugrottak.
+Az MVP-t két hét alatt meg tudjuk csinálni.
+Átírtam a promptot, most jobb a válasz.
+A deadline péntek, de a scope még mindig nem fix.
+Kicsit refaktoráltam a kódot, most olvashatóbb.
+Az endpoint négyszáznégy hibát dob, ha nincs token.
+Nézd meg a Jira ticketet, ott van minden részlet.
+Feltöltöttem a release notes-t a Notionbe.

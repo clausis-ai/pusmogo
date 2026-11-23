@@ -1,0 +1,9 @@
+Pusmogo
+Copyright 2026 vatson.ai (Clausis AI) and Pusmogo contributors
+
+This product is licensed under the Apache License, Version 2.0.
+"Pusmogo" and "vatson.ai" are names of vatson.ai; the licence does not grant
+permission to use them (Apache-2.0, section 6). Forks must use a different name.
+
+Speech models are downloaded separately and keep their own licences
+(OpenAI Whisper: MIT; Silero VAD speech detector: MIT).

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 840">
+  <!-- Pusmogo mark: five sound-bar bars fused into one body, two calm eyes. -->
+  <g fill="#1f6bff">
+    <rect x="140" y="270" width="120" height="300" rx="60"/>
+    <rect x="250" y="185" width="120" height="470" rx="60"/>
+    <rect x="360" y="120" width="120" height="600" rx="60"/>
+    <rect x="470" y="185" width="120" height="470" rx="60"/>
+    <rect x="580" y="270" width="120" height="300" rx="60"/>
+  </g>
+  <ellipse cx="354" cy="410" rx="40" ry="60" fill="#14110c"/>
+  <ellipse cx="486" cy="410" rx="40" ry="60" fill="#14110c"/>
+</svg>

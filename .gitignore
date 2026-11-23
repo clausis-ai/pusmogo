@@ -1,0 +1,8 @@
+.DS_Store
+build/
+app/.build/
+core/target/
+*.bin
+bench/audio/
+__pycache__/
+*.pyc

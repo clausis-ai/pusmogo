@@ -1,0 +1,1 @@
+A szövegben ezek a nevek és szavak fordulhatnak elő: Pusmogo, Kubernetes, GitHub, Figma, Notion, Jira, Szentendre, Balatonfüred, OTP, Telekom, standup, deploy, onboarding, ChatGPT, TypeScript, Zoom, PowerPoint, e-számla, NAV és ÁFA.

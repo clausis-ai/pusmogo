@@ -1,0 +1,50 @@
+# English business terms used inside Hungarian speech, with their correct
+# Hungarian forms (AkH. 12, 217: suffixes join directly; a hyphen when the word
+# ends in a silent letter or an unusual letter group, e.g. deadline-ra).
+# Vowel harmony follows the Hungarian pronunciation (deadline "dedlájn" → back).
+# Columns: term, article (a/az), accusative, superessive (-on/-en/-ön),
+# sublative (-ra/-re), inessive (-ban/-ben), misheard forms the speech engine
+# types (| separated; a suffix is glued on as the engine would). Empty = skip.
+# held-out terms (bench only, never trained) are marked with a leading "!".
+deadline	a	deadline-t	deadline-on	deadline-ra	deadline-ban	dedlájn|de ad line|dead line
+meeting	a	meetinget	meetingen	meetingre	meetingben	míting|miting|mítingen
+call	a	callt	callon	callra	callban	kol|kól
+feedback	a	feedbacket	feedbacken	feedbackre	feedbackben	fídbek|feed back|fídback
+ticket	a	ticketet	ticketen	ticketre	ticketben	tiket|tikett
+sprint	a	sprintet	sprinten	sprintre	sprintben	szprint
+release	a	release-t	release-en	release-re	release-ben	rilíz|re lease|relíz
+deploy	a	deployt	deployon	deployra	deployban	diploj|de ploy|diplój
+budget	a	budgetet	budgeten	budgetre	budgetben	badzset|bádzset
+pitch	a	pitchet	pitchen	pitchre	pitchben	pics|pitcs
+slide	a	slide-ot	slide-on	slide-ra	slide-ban	szlájd|slájd
+deck	a	decket	decken	deckre	deckben	dekk|dek
+lead	a	leadet	leaden	leadre	leadben	líd
+onboarding	az	onboardingot	onboardingon	onboardingra	onboardingban	onbording|on boarding
+workshop	a	workshopot	workshopon	workshopra	workshopban	vörksop|work shop|vörkshop
+startup	a	startupot	startupon	startupra	startupban	sztartap|start up
+e-mail	az	e-mailt	e-mailen	e-mailre	e-mailben	ímél|imél|email
+roadmap	a	roadmapet	roadmapen	roadmapre	roadmapben	ródmep|road map
+backlog	a	backlogot	backlogon	backlogra	backlogban	beklog|back log
+stakeholder	a	stakeholdert	stakeholderen	stakeholderre	stakeholderben	sztékholder|stake holder
+CRM	a	CRM-et	CRM-en	CRM-re	CRM-ben	cé er em|CRN
+Slack	a	Slacket	Slacken	Slackre	Slackben	szlek|slakken
+Teams	a		Teamsen	Teamsre	Teamsben	tímsz|tíms
+Excel	az	Excelt		Excelre	Excelben	excel|ekszel
+PowerPoint	a	PowerPointot		PowerPointra	PowerPointban	pauerpoint|power point
+Zoom	a	Zoomot	Zoomon	Zoomra	Zoomban	zúm|zum
+update	az	update-et	update-en	update-re	update-ben	apdét|up date|apdate
+standup	a	standupot	standupon	standupra	standupban	sztendap|stand up
+follow-up	a	follow-upot	follow-upon	follow-upra	follow-upban	follóap|follow up
+benchmark	a	benchmarkot	benchmarkon	benchmarkra	benchmarkban	bencsmark|bench mark
+use case	a	use case-t	use case-en	use case-re	use case-ben	júz kéz|juz kez
+user	a	usert	useren	userre	userben	júzer|juzer
+review	a	review-t	review-n	review-ra	review-ban	revjú|re view|rivjú
+newsletter	a	newslettert	newsletteren	newsletterre	newsletterben	nyúzletter|news letter
+brief	a	briefet	briefen	briefre	briefben	bríf
+pipeline	a	pipeline-t	pipeline-on	pipeline-ra	pipeline-ban	pájplájn|pipe line
+dashboard	a	dashboardot	dashboardon	dashboardra	dashboardban	desbord|dash board
+!landing page	a	landing page-et	landing page-en	landing page-re	landing page-ben	lending pédzs|landing pedzs
+!cash flow	a	cash flow-t	cash flow-n	cash flow-ra	cash flow-ban	kesflo|kes flow
+!due diligence	a	due diligence-t	due diligence-en	due diligence-re	due diligence-ben	dyú diligensz|du diligence
+!webinar	a	webinart	webinaron	webinarra	webinarban	vebinár|web inar
+!invoice	az	invoice-t	invoice-on	invoice-ra	invoice-ban	invojsz|in voice

@@ -1,0 +1,132 @@
+# Pusmogo recording kit reading script: id<TAB>lang<TAB>category<TAB>whisper<TAB>text.
+# Read every line once in a normal voice; lines with whisper=yes are read a second time whispering.
+ts001	hu	everyday	yes	Holnap reggel nyolckor indulunk, ne késs el.
+ts002	hu	everyday	yes	Megvetted már a kenyeret és a tejet?
+ts003	hu	everyday	yes	Szerintem ma este inkább otthon maradok.
+ts004	hu	everyday	yes	Kérlek, küldd át a címet, mert nem találom.
+ts005	hu	everyday	yes	A vonat húsz percet késik, várj meg az állomáson.
+ts006	hu	everyday	yes	Köszönöm a segítséget, nagyon sokat jelentett.
+ts007	hu	everyday	yes	Elnézést, hogy csak most válaszolok.
+ts008	hu	everyday	yes	Jövő héten szabadságon leszek, utána visszahívlak.
+ts009	hu	everyday	no	A gyerekeket ma a nagymama hozza el az iskolából.
+ts010	hu	everyday	no	Nem tudom, hogy elég lesz-e a pénz a nyaralásra.
+ts011	hu	everyday	no	Nyisd ki az ablakot, mert nagyon meleg van.
+ts012	hu	everyday	no	Szombaton megyünk a Balatonra, ha jó idő lesz.
+ts013	hu	everyday	no	Ma délután nem érek rá, de holnap igen.
+ts014	hu	everyday	no	Írd fel a listára a mosóport is.
+ts015	hu	everyday	no	Örülök, hogy végre sikerült találkoznunk.
+ts016	hu	everyday	no	Az orvos azt mondta, pihenjek még két napot.
+ts017	hu	everyday	no	Hánykor kezdődik a film a moziban?
+ts018	hu	everyday	no	Elfelejtettem bezárni az ajtót, visszamegyek.
+ts019	hu	everyday	no	Este főzök valamit, gyere át vacsorázni.
+ts020	hu	everyday	no	Gratulálok, ez nagyon szép eredmény.
+ts021	hu	everyday	no	Sajnos ma nem tudok menni, mert beteg a kislányom.
+ts022	hu	everyday	no	Hívd fel anyát, mert szeretne beszélni veled.
+ts023	hu	everyday	no	A kulcsot a lábtörlő alatt hagytam.
+ts024	hu	everyday	no	Mennyibe került végül a szerelő?
+ts025	hu	everyday	no	Azt hiszem, eltévedtünk, kérdezzünk meg valakit.
+ts026	hu	everyday	no	Kérek egy kávét tejjel, cukor nélkül.
+ts027	hu	everyday	no	A csomag holnap délelőtt érkezik meg.
+ts028	hu	everyday	no	Ne felejtsd el, hogy kedden fogorvoshoz mész.
+ts029	hu	everyday	no	Tegnap végre befejeztem a könyvet.
+ts030	hu	everyday	no	Szólj, ha megérkeztél, hogy ne aggódjak.
+ts031	hu	everyday	no	Elmegyünk sétálni a parkba a kutyával.
+ts032	hu	everyday	no	Ez az étterem drága, de nagyon finom.
+ts033	hu	everyday	no	Megkérdezem a főnököt, és visszaírok.
+ts034	hu	everyday	no	Nagyon fáradt vagyok, korán lefekszem.
+ts035	hu	everyday	no	A szomszéd már megint fúr valamit.
+ts036	hu	everyday	no	Mikor jön a következő busz a reptérre?
+ts037	hu	everyday	no	Bocsánat, rossz számot hívtam.
+ts038	hu	everyday	no	Kitakarítottam a konyhát, de a fürdőszoba még hátravan.
+ts039	hu	everyday	no	Hétvégén meglátogatjuk a nagyszülőket Debrecenben.
+ts040	hu	everyday	no	Kérlek, hozz haza egy kiló almát.
+ts041	hu	tech	yes	Pusholtam a változásokat a main branchre.
+ts042	hu	tech	yes	A deploy után nézd meg a logokat a szerveren.
+ts043	hu	tech	yes	Nyitottam egy pull requestet, nézd át, légy szíves.
+ts044	hu	tech	no	A build megint elhasalt a teszteken.
+ts045	hu	tech	no	Írtam egy unit tesztet a parser függvényhez.
+ts046	hu	tech	no	A frontend Reactban van, a backend Node.js-ben.
+ts047	hu	tech	no	Frissítsd a dependenciákat, mert van egy biztonsági hiba.
+ts048	hu	tech	no	Az API kulcsot ne tedd bele a repóba.
+ts049	hu	tech	no	A Kubernetes klaszterben elfogyott a memória.
+ts050	hu	tech	no	Csináltam egy új Docker image-et a staging környezetre.
+ts051	hu	tech	no	A Postgres adatbázisban lassú ez a lekérdezés.
+ts052	hu	tech	no	Állítsd be a cache-t, mert túl sok a kérés.
+ts053	hu	tech	no	A CI pipeline húsz percig fut, ez túl sok.
+ts054	hu	tech	no	Merge-eltem a feature branchet, mehet a release.
+ts055	hu	tech	no	A JSON válaszban hiányzik a dátum mező.
+ts056	hu	tech	no	Átírtam a függvényt TypeScriptre.
+ts057	hu	tech	no	A mobil appban összeomlik a bejelentkezés.
+ts058	hu	tech	no	Kérlek, nézd meg a Jira ticketet a sprint előtt.
+ts059	hu	tech	no	A modell válaszideje kétszáz milliszekundum.
+ts060	hu	tech	no	Az S3 bucket nyilvános, ezt azonnal javítani kell.
+ts061	hu	tech	no	A webhook nem hívódik meg, nézd meg a beállításokat.
+ts062	hu	tech	no	Kell egy rollback, mert a production elszállt.
+ts063	hu	tech	no	A Swift kód nem fordul le az új Xcode-dal.
+ts064	hu	tech	no	Rust-ban írtuk újra a feldolgozó modult.
+ts065	hu	tech	no	Tegyél egy breakpointot erre a sorra, és debuggold.
+ts066	hu	names	yes	Kovács Péter holnap tízkor jön az interjúra.
+ts067	hu	names	yes	Szabó Zsófia küldte át a szerződést.
+ts068	hu	names	no	Tóth Gergely és Nagy Eszter is ott lesz a megbeszélésen.
+ts069	hu	names	no	Kérdezd meg Horváth Lillát, ő tudja a jelszót.
+ts070	hu	names	no	Varga Bence új címe Szeged, Kossuth utca tizenkettő.
+ts071	hu	names	no	Kiss Réka a pénzügyön dolgozik.
+ts072	hu	names	no	Molnár Dávid szerint jövő hónapban kész lesz.
+ts073	hu	names	no	Németh Anna Győrből jön vonattal.
+ts074	hu	names	no	Farkas Levente elkérte a prezentációt.
+ts075	hu	names	no	Balogh Krisztina születésnapja pénteken lesz.
+ts076	hu	names	no	Papp Áron a Kecskeméti úton lakik.
+ts077	hu	names	no	Takács Hajnalka holnap szabadságon van.
+ts078	hu	names	no	Juhász Márton és Lakatos Boglárka nyerték a versenyt.
+ts079	hu	names	no	Mészáros Csilla Pécsre költözött.
+ts080	hu	names	no	Oláh Richárd felhívott Miskolcról.
+ts081	hu	numbers	yes	A találkozó március tizenötödikén délután háromkor lesz.
+ts082	hu	numbers	yes	Az ár tizenkétezer-ötszáz forint, áfával együtt.
+ts083	hu	numbers	no	A telefonszámom harminc, százhuszonhárom, negyvenöt, hatvanhét.
+ts084	hu	numbers	no	Kétezer-huszonhatban költöztünk ide.
+ts085	hu	numbers	no	A számla összege százhuszonnyolcezer forint.
+ts086	hu	numbers	no	Negyed kilenckor indul a gép a második terminálról.
+ts087	hu	numbers	no	A lakás hatvanöt négyzetméteres, a harmadik emeleten.
+ts088	hu	numbers	no	Kérek három jegyet a hét óra húszas előadásra.
+ts089	hu	numbers	no	A határidő november harmincadika, péntek.
+ts090	hu	numbers	no	Az út kétszázhúsz kilométer, nagyjából két és fél óra.
+ts091	hu	numbers	no	A rendelésszám négyezer-hétszáznyolcvankilenc.
+ts092	hu	numbers	no	Tizenkét fő jelentkezett, de csak tíz hely van.
+ts093	hu	numbers	no	A hőmérséklet ma mínusz öt fok volt.
+ts094	hu	numbers	no	Másfél óra múlva visszahívlak.
+ts095	hu	numbers	no	Az áramszámla tizennyolc százalékkal nőtt.
+ts096	hu	hlr	yes	Hétfőn hosszú lesz a nap.
+ts097	hu	hlr	yes	Hamarosan hazaérek, csak még bevásárolok.
+ts098	hu	hlr	yes	Hallottad, hogy holnap havazni fog?
+ts099	hu	hlr	no	Lehet, hogy lekésem a hatos buszt.
+ts100	hu	hlr	no	Lassan lemegy a nap a hegyek mögött.
+ts101	hu	hlr	no	Légy szíves, lapozz a következő oldalra.
+ts102	hu	hlr	no	Reggel rendeltem egy rózsaszín ruhát.
+ts103	hu	hlr	no	Rövid leszek, mert rohanok.
+ts104	hu	hlr	no	Ráérsz ma rám egy fél órát?
+ts105	hu	hlr	no	Hívd le a liftet, rögtön jövök.
+ts106	hu	hlr	no	Rendben, holnap reggel ráérek.
+ts107	hu	hlr	no	Lépj be a rendszerbe, és nézd meg a listát.
+ts108	hu	hlr	no	Hoztam neked egy kis házi lekvárt.
+ts109	hu	hlr	no	Ropogós a héja, de lágy a belseje.
+ts110	hu	hlr	no	Leültünk a régi ház lépcsőjére.
+ts111	hu	vs	yes	Mi a különbség a lopás és a rablás között?
+ts112	hu	vs	yes	Mi a lopás vs rablás?
+ts113	hu	vs	no	Melyik a jobb, a vonat vagy a busz?
+ts114	hu	vs	no	Mi a különbség a vírus és a baktérium között?
+ts115	hu	vs	no	Python vs JavaScript, melyiket tanuljam először?
+ts116	hu	vs	no	Bérlés vagy vásárlás, melyik éri meg jobban?
+ts117	hu	vs	no	Mi a különbség a hal és a halló között?
+ts118	hu	vs	no	iPhone vs Android, mit vegyek a lányomnak?
+ts119	hu	vs	no	Mi a különbség a láz és a hőemelkedés között?
+ts120	hu	vs	no	Kávé vagy tea, mi a jobb reggelre?
+ts121	en	everyday-en	no	Can you send me the slides before the meeting?
+ts122	en	everyday-en	no	I'll be about ten minutes late, sorry.
+ts123	en	everyday-en	no	Let's move the call to Thursday at three.
+ts124	en	everyday-en	no	The build failed again on the integration tests.
+ts125	en	everyday-en	no	Please review my pull request when you have a minute.
+ts126	en	everyday-en	no	What's the difference between latency and throughput?
+ts127	en	everyday-en	no	Thanks for the quick reply, that helps a lot.
+ts128	en	everyday-en	no	I pushed a fix for the login bug this morning.
+ts129	en	everyday-en	no	Could we split the release into two smaller ones?
+ts130	en	everyday-en	no	See you at the office tomorrow.

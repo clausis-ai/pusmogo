@@ -1,0 +1,367 @@
+/* English strings. Keys are the Hungarian source text used in the code. */
+
+/* Sound bar notices */
+"Engedélyezd a mikrofont a Beállításokban" = "Allow the microphone in System Settings";
+"A mikrofon nem indult el" = "The microphone didn't start";
+"Nem hallottam semmit" = "I didn't hear anything";
+"Jelszómezőbe nem írok, a vágólapon van" = "Password field: the text is on the clipboard";
+"Vágólapra másolva, nyomd meg: ⌘V" = "Copied to the clipboard, press ⌘V";
+
+/* Sound bar buttons (hands-free mode) */
+"Mégse (Esc)" = "Cancel (Esc)";
+"Kész (fn)" = "Done (fn)";
+
+/* Menu bar panel: tabs, header, footer */
+"Kezdőlap" = "Home";
+"Előzmények" = "History";
+"Szótár" = "Dictionary";
+"Beállítások" = "Settings";
+"Kilépés" = "Quit";
+
+/* Language code for dates and numbers; the Hungarian default lives in the code */
+"locale.ui" = "en";
+
+/* Menu bar panel: status chip */
+"status.ready" = "Ready";
+"Modell betöltése" = "Loading model";
+"Kihangosítva" = "Hands-free";
+"Hallgatlak" = "Listening";
+"Írom" = "Writing";
+"Figyelem" = "Heads up";
+
+/* Home tab */
+"Tartsd lenyomva és beszélj" = "Hold and speak";
+"Dupla koppintás: kihangosítva, fn-nel állítod le" = "Double tap: hands-free, fn stops it";
+"Nyelvváltás: magyar ⇄ angol" = "Hungarian ⇄ English";
+"Mégse" = "Cancel";
+"Utolsó szöveg beillesztése" = "Paste the last text";
+"Utoljára" = "Last";
+"Bemutató" = "Tour";
+"%.0f ms  (hang %.0f · átírás %.0f · beillesztés %.0f)" = "%.0f ms  (audio %.0f · transcribe %.0f · insert %.0f)";
+"Két engedély kell" = "Two permissions needed";
+"Egy engedély kell" = "One permission needed";
+"Mikrofon" = "Microphone";
+"hogy halljalak" = "so I can hear you";
+"Kisegítő hozzáférés" = "Accessibility";
+"a gyorsbillentyűhöz és a beillesztéshez" = "for the shortcut and for pasting";
+"Megnyitás" = "Open";
+
+/* History tab */
+"Még nincs diktálás. Tartsd lenyomva az fn billentyűt bármelyik appban." = "No dictations yet. Hold the fn key in any app.";
+"Keresés" = "Search";
+"Összes törlése" = "Clear all";
+"Nincs találat." = "No matches.";
+"Törlöd az összes diktálást?" = "Delete all dictations?";
+"Az előzmények csak ezen a gépen vannak, és nem hozhatók vissza." = "History lives only on this Mac and can't be restored.";
+"Másolás" = "Copy";
+"Beírás oda, ahol előtte voltál" = "Type it where you were before";
+"Törlés" = "Delete";
+
+/* Dictionary tab */
+"Nevek, márkák és szakszavak, amiket mindig így írok le. A következő diktálástól érvényes." = "Names, brands and terms I always write this way. Applies from your next dictation.";
+"Amit hallok" = "What I hear";
+"Ahogy írjam" = "How to write it";
+"Hozzáadás" = "Add";
+"Mentés" = "Save";
+"Szerkesztés" = "Edit";
+"Ezt nem tudtam elmenteni." = "I couldn't save this.";
+"Még üres. Például: „pushmogó” → „Pusmogo”." = "Empty for now. For example: “pushmogo” → “Pusmogo”.";
+"A lista túl hosszú: a %lld legrégebbi szót a beszédmodell már nem kapja meg előre. A cseréjük továbbra is működik." = "The list is too long: the oldest %lld no longer reach the speech model as hints. Their replacements still work.";
+
+/* Settings tab */
+"Indítás bejelentkezéskor" = "Open at login";
+"Engedélyezd a Rendszerbeállítások → Bejelentkezési elemek között…" = "Allow it in System Settings → Login Items…";
+"A macOS nem engedte. Próbáld a Rendszerbeállításokban." = "macOS didn't allow it. Try in System Settings.";
+"Nem elérhető mikrofon" = "Unavailable microphone";
+"Mikrofon készenlétben" = "Keep microphone ready";
+"Automatikus" = "Automatic";
+"Mindig" = "Always";
+"Soha" = "Never";
+"A lassan induló mikrofon (például USB vagy monitor) a diktálások között is fut, így az első szó sem vész el. Közben látszik a macOS mikrofonjelzője; a hang csak a memóriában van, és felülíródik." = "A microphone that is slow to start (USB or a display, for example) keeps running between dictations, so the first word is not lost. macOS shows its microphone indicator meanwhile; the audio stays in memory and is overwritten.";
+"Bluetooth-mikrofonnal gyengébb a felismerés, és diktálás közben a zene is telefonminőségű. Jobb egy beépített vagy vezetékes mikrofon." = "A Bluetooth microphone makes recognition worse, and music sounds like a phone call while you dictate. A built-in or wired microphone is better.";
+"Most ezt használja: %@. A fejhallgató mikrofonja elrontaná a zenét." = "Using %@ now. The headset's microphone would spoil the music.";
+"Hangjelzések" = "Sounds";
+"Zene és videó szüneteltetése diktálás közben" = "Pause music and video while dictating";
+"Kis sáv a képernyő alján, amikor nem diktálsz" = "Show the bar when idle";
+"Második diktálóbillentyű" = "Second dictation key";
+"Nincs" = "None";
+"Jobb ⌥" = "Right ⌥";
+"Jobb ⌘" = "Right ⌘";
+"Jobb ⌃" = "Right ⌃";
+"fn nélküli billentyűzethez: nyomva tartva ugyanúgy diktál, mint az fn." = "For keyboards without fn: hold it to dictate, just like fn.";
+"Előzmények megőrzése" = "Keep history";
+"Mindig" = "Forever";
+"90 napig" = "90 days";
+"30 napig" = "30 days";
+"7 napig" = "7 days";
+"1 napig" = "1 day";
+"%lld napig" = "%lld days";
+"Billentyűk" = "Shortcuts";
+"fn nyomva tartva" = "hold fn";
+"diktálás, felengedésre beírja" = "dictate, typed on release";
+"fn kétszer" = "fn twice";
+"kihangosítva; fn újra: kész" = "hands-free; fn again: done";
+"magyar ⇄ angol" = "Hungarian ⇄ English";
+"megszakítás" = "cancel";
+"utolsó szöveg beillesztése / másolása" = "paste / copy the last text";
+"%@ nyomva" = "hold %@";
+"ugyanaz, mint az fn" = "same as fn";
+"Az fn (🌐) billentyű beállítása…" = "Set up the fn (🌐) key…";
+"Állítsd erre: „A 🌐 billentyű megnyomásakor: Ne történjen semmi”, különben az fn az emojikat is megnyitja." = "Set “Press 🌐 key to: Do Nothing”, otherwise fn also opens the emoji picker.";
+"Beszédmodell" = "Speech model";
+"Mappa" = "Folder";
+"Letöltés: %lld%%" = "Downloading: %lld%%";
+"Nincs modell" = "No model";
+"Engedély szükséges" = "Permission needed";
+"Letöltési hiba" = "Download failed";
+"Sérült modell" = "Model damaged";
+"Modell letöltése (%@)" = "Download the model (%@)";
+"Újra" = "Retry";
+"A letöltés hiányos (%lld / %lld MB). Próbáld újra." = "The download was incomplete (%lld of %lld MB). Try again.";
+"A letöltés megszakadt. Nézd meg az internetkapcsolatot, és próbáld újra." = "The download stopped. Check your internet connection and try again.";
+"A modellt nem tudtam elmenteni a Pusmogo mappájába." = "Couldn't save the model to the Pusmogo folder.";
+"Nincs elég hely a lemezen: a modellhez kb. %lld MB kell, most %lld MB szabad. Szabadíts fel helyet, és próbáld újra." = "Not enough disk space: the model needs about %1$lld MB and %2$lld MB is free. Free up some space and try again.";
+"Nincs elég hely a lemezen: a modellhez kb. %lld MB kell. Szabadíts fel helyet, és próbáld újra." = "Not enough disk space: the model needs about %lld MB. Free up some space and try again.";
+"Pontosabb magyar modell töltődik: %lld%%. Addig a gyorssal diktálsz." = "Downloading the more accurate Hungarian model: %lld%%. Until then you dictate with the fast one.";
+"A pontosabb modell nem töltődött le. %@" = "The more accurate model did not download. %@";
+"A letöltött modell sérült. Próbáld újra." = "The downloaded model is damaged. Try again.";
+"A modellfájl sérült vagy hiányos. Töltsd le újra." = "The model file is damaged or incomplete. Download it again.";
+"Ez a változat beszédmotor nélkül készült" = "This build has no speech engine";
+"Betöltve, azonnal kész" = "Loaded, ready now";
+"Pihen, a memória szabad. Diktáláskor betöltöm." = "Resting, memory is free. I'll load it when you dictate.";
+
+/* Onboarding */
+"Szia, ez a Pusmogo." = "Hi, this is Pusmogo.";
+"Két engedély, és kész." = "Two permissions, and you're set.";
+"A te gombod: fn" = "Your key: fn";
+"Próbáld ki most." = "Try it now.";
+"Hosszabb szöveg? Kihangosítva." = "Longer text? Go hands-free.";
+"Magyar vagy angol." = "Hungarian or English.";
+"A menüsorban vagyok." = "I live in the menu bar.";
+"Mondd, és már le is van írva. Bármelyik appban, magyarul és angolul, teljesen a gépeden. Ingyen és nyílt forráskóddal." = "Say it, and it's written. In any app, in Hungarian and English, entirely on your Mac. Free and open source.";
+"A mikrofonnal hallak, a kisegítő hozzáféréssel figyelem az fn gombot és írom be a szöveget. A hangod soha nem hagyja el a Macet." = "The microphone lets me hear you; Accessibility lets me watch the fn key and type the text. Your voice never leaves your Mac.";
+"A billentyűzet bal alsó sarkában. Tartsd lenyomva, amíg beszélsz, engedd el, és beírom. Nyomd meg most egyszer." = "Bottom left of your keyboard. Hold it while you speak, let go, and I type it. Press it once now.";
+"Tartsd lenyomva az fn-t, és mondd: %@" = "Hold fn and say: %@";
+"Koppints duplán az fn-re, és beszélhetsz, ameddig akarsz, akár elengedett kézzel. Ha végeztél, egy fn. Három koppintás: mégse." = "Double-tap fn and talk as long as you like, hands free. When you're done, press fn once. Three taps: cancel.";
+"Tartsd lenyomva az fn-t, és nyomd meg a Shiftet: magyar ⇄ angol. A sávon mindig látod, épp melyik." = "Hold fn and press Shift: Hungarian ⇄ English. The bar always shows which one is on.";
+"Kattints az ikonra fent: előzmények, szótár, beállítások.\nNem látod az ikont? A ⌃⌥P is megnyitja." = "Click the icon up there for history, dictionary and settings.\nCan't see it? ⌃⌥P opens it too.";
+"Kész, %.0f ms alatt." = "Done in %.0f ms.";
+"Engedélyezés" = "Allow";
+"Rendszerbeállítások" = "System Settings";
+"Minden rendben" = "All set";
+"Beállítás" = "Change";
+"Megvan, működik." = "Got it, it works.";
+"A beszédmodellt töltöm (%@), %lld%%" = "Downloading the speech model (%@), %lld%%";
+"Modell letöltése" = "Download the model";
+"Vissza" = "Back";
+"Kész" = "Done";
+"Kezdjük" = "Let's go";
+"Később" = "Later";
+"Kihagyom" = "Skip";
+"Tovább" = "Continue";
+"semmi" = "nothing";
+"beviteli forrás váltása" = "change input source";
+"emojik megjelenítése" = "show emoji";
+"Apple diktálás indítása" = "start Apple Dictation";
+"A beszédmodell még töltődik: %lld%%" = "The speech model is still downloading: %lld%%";
+"Előbb letöltöm a beszédmodellt (%@)" = "Downloading the speech model first (%@)";
+
+/* Settings: profile export and import */
+"Előzmények és szótár" = "History and dictionary";
+"Exportálás…" = "Export…";
+"Importálás…" = "Import…";
+"Pusmogo profil" = "Pusmogo profile";
+"Lecseréled az előzményeidet, a szótáradat és a beállításaidat?" = "Replace your history, dictionary and settings?";
+"A mostaniak helyére az exportált fájl tartalma kerül." = "The contents of the exported file take their place.";
+"Elmentve: %@" = "Saved: %@";
+"Nem sikerült elmenteni." = "Could not save the file.";
+"Betöltve: %@" = "Imported: %@";
+"Ez nem Pusmogo-profil, semmi sem változott." = "This is not a Pusmogo profile. Nothing was changed.";
+"Ez hétköznapi szó is: minden „%@” helyére „%@” kerül." = "This is also an everyday word: every “%@” becomes “%@”.";
+"Ezek hétköznapi szavak is: minden „%@” helyére „%@” kerül." = "These are also everyday words: every “%@” becomes “%@”.";
+
+/* Learning from edits: the "Add to dictionary?" offer on the sound bar */
+"Szótárba" = "Add word";
+"Felveszem a szótárba, legközelebb így írom" = "Add it to the dictionary so it is written this way next time";
+"Elvetés" = "Dismiss";
+"Szótárba felvéve" = "Added to dictionary";
+"Kétszer javítottad így, ezért felvettem a szótárba. Visszavonás: kiveszem." = "You fixed it this way twice, so it is now in the dictionary. Undo takes it out.";
+"Rejtett menüikon. Panel: ⌃⌥P" = "Menu bar icon hidden. Panel: ⌃⌥P";
+"Panel, ha az ikon nem látszik" = "Panel, if the icon is hidden";
+"ez a panel, ha a menüikon nem látszik" = "this panel, when the menu bar icon is hidden";
+"Korai élő felirat" = "Early live caption";
+"A felirat kb. 4 másodperc után megjelenik, nem csak 10 felett. Kicsit több memóriát használ." = "The caption shows after about 4 seconds, not only past 10. Uses a little more memory.";
+"Szövegkörnyezet használata" = "Use surrounding text";
+"A kurzor előtti szövegből tanul neveket és szakszavakat. Csak a gépeden, nem menti el." = "Picks up names and terms from the text before the cursor. Stays on your Mac, never saved.";
+"Önjavítás felismerése" = "Catch self-corrections";
+"Elhangzott: %@" = "Said: %@";
+"Ezt mondtad. Az önjavítás előtti részt kihagytuk a beírt szövegből." = "What you said. The part before your self-correction was left out of the typed text.";
+"Ha menet közben javítasz („háromkor, nem, négykor”), csak a javítást írja be." = "When you correct yourself as you speak (\"at 3, no, at 4\"), only the correction is typed.";
+"Utolsó 20 diktálás megőrzése" = "Keep the last 20 dictations";
+"Hang és szöveg, hogy egy félrehallott diktálást vissza lehessen játszani. Csak ezen a Macen marad." = "Audio and text, so a misheard dictation can be replayed. Stays on this Mac.";
+"Több" = "More";
+"Kevesebb" = "Less";
+"Ma %@" = "Today %@";
+"Tegnap %@" = "Yesterday %@";
+"· %@ mp" = "· %@ s";
+"A legutóbbi 200 diktálás látszik. A keresés a régebbieket is megtalálja." = "Showing the newest 200. Search finds older ones.";
+"A legutóbbi 200 találat látszik. Pontosíts a keresésen a régebbiekért." = "Showing the newest 200 matches. Narrow the search to find older ones.";
+
+/* Home: speech model card */
+"A beszédmodell töltődik" = "Downloading the speech model";
+"%lld%% · Utána diktálhatsz." = "%lld%% · You can dictate when it is done.";
+"A beszédmodell nincs letöltve" = "The speech model is not downloaded";
+"A beszédmodell sérült" = "The speech model is damaged";
+"A beszédmodell letöltése nem sikerült" = "The speech model download failed";
+"Diktálás előtt egyszer le kell tölteni." = "Download it once before you dictate.";
+"Letöltés (%@)" = "Download (%@)";
+"Folytatom nélküle" = "Continue without it";
+"Ha nélküle folytatod, a háttérben töltöm tovább." = "If you continue without it, the download carries on in the background.";
+
+/* Hovered idle bar */
+"Diktálás" = "Dictate";
+"Jegyzetelő · hamarosan" = "Notes · coming soon";
+"Legpontosabb" = "Most accurate";
+"Gyors" = "Fast";
+
+/* Move to Applications (AppMover.swift) */
+"Áthelyezed az Alkalmazások mappába?" = "Move Pusmogo to the Applications folder?";
+"A Pusmogo most innen fut: %@. Az Alkalmazások mappából bejelentkezéskor is elindulhat, és nem tűnik el, ha kiüríted a Letöltéseket." = "Pusmogo is running from %@. From Applications it can start at login, and it stays put when you clean up Downloads.";
+"Áthelyezés" = "Move";
+"Nem most" = "Not now";
+"Ne kérdezd újra" = "Don't ask again";
+"Nem sikerült áthelyezni" = "Couldn't move Pusmogo";
+"Húzd át kézzel az Alkalmazások mappába. (%@)" = "Drag it to the Applications folder yourself. (%@)";
+
+/* Style tab */
+"Stílus" = "Style";
+"Személyes üzenetek" = "Personal messages";
+"Munkahelyi üzenetek" = "Work messages";
+"E-mail" = "Email";
+"Minden más" = "Everything else";
+"Kód" = "Code";
+"Kódhoz igazítva" = "Set for code";
+"Formális" = "Formal";
+"Laza" = "Casual";
+"Nagyon laza" = "Very casual";
+"A szöveg formája attól függ, melyik appba diktálsz. A szavakat sosem írja át." = "The text is shaped for the app you dictate into. Your words are never changed.";
+"Saját beosztás" = "Your own mapping";
+"A gyakori appokat magától felismeri. Itt átsorolhatsz egy appot másik csoportba." = "Common apps are recognised on their own. Here you can move an app to another group.";
+"Csoport" = "Group";
+"Eltávolítás" = "Remove";
+"%@ hozzáadása" = "Add %@";
+
+/* Dictionary tab: words and snippets */
+"Szavak" = "Words";
+"Gyorsszövegek" = "Snippets";
+"Ha csak a kulcsszót mondod, a mentett szöveget írom be, betűre pontosan." = "Say only the trigger and I type the saved text exactly as written.";
+"Kulcsszó, amit mondasz" = "Trigger you say";
+"Szöveg, amit beírok" = "Text I type";
+"Ezt nem tudtam elmenteni: ez a kulcsszó már egy másik gyorsszövegé." = "Couldn't save this: another snippet already uses that trigger.";
+"Még üres. Például: „címem” → a teljes címed." = "Empty for now. For example: “my address” → your full address.";
+"Fájlba vagy fájlból" = "To or from a file";
+"Pusmogo gyorsszövegek" = "Pusmogo snippets";
+"Ez nem gyorsszöveg-lista, semmi sem változott." = "This is not a snippet list; nothing changed.";
+"Betöltve: %lld gyorsszöveg" = "Snippets imported: %lld";
+"Betöltve: %lld gyorsszöveg, %lld üres kihagyva" = "Snippets imported: %lld, %lld empty skipped";
+
+/* Insights tab */
+"Statisztika" = "Insights";
+"Még nincs mit mutatni. Diktálj néhányat, és itt látod, hogyan használod a Pusmogót." = "Nothing to show yet. Dictate a few times and you will see here how you use Pusmogo.";
+"Minden adat ezen a Macen marad." = "All of this stays on this Mac.";
+"A hangprofilod" = "Your voice profile";
+"szó összesen" = "words in total";
+"szó percenként" = "words per minute";
+"nap egymás után" = "days in a row";
+"nap, a leghosszabb sorozat" = "days, longest streak";
+"Diktálások" = "Dictations";
+"Leggyakoribb szó" = "Most used word";
+"Legtöbbet javított szó" = "Most corrected word";
+"Legaktívabb órád" = "Your busiest hour";
+"Ahová a legtöbbet diktálsz" = "Where you dictate most";
+"Gondolkodó" = "Thinker";
+"Hosszan, összefüggően mondod el, amit gondolsz." = "You say what you think in long, connected stretches.";
+"Gyors válaszoló" = "Quick replier";
+"Rövid, pörgős üzenetekben diktálsz." = "You dictate short, snappy messages.";
+"Éjszakai bagoly" = "Night owl";
+"Akkor is diktálsz, amikor mások már alszanak." = "You dictate while others are asleep.";
+"Korán kelő" = "Early bird";
+"A nap első óráiban vagy a legaktívabb." = "You are busiest in the first hours of the day.";
+"Kitartó" = "Steady voice";
+"Napról napra visszatérsz, legalább egy hétig egyhuzamban." = "You come back day after day, a week or more in a row.";
+"Mesélő" = "Storyteller";
+"Kiegyensúlyozottan, történetszerűen diktálsz." = "You dictate in even, story-like stretches.";
+"Új hang" = "New voice";
+"Most ismerkedünk. Diktálj tovább, és kirajzolódik a profilod." = "We are just getting to know you. Keep dictating and your profile takes shape.";
+
+/* Test-set recording window (TestSetWindow.swift) */
+"Tesztfelvétel" = "Test recording";
+"Adj meg egy álnevet vagy monogramot. Ez lesz a felvételeid mappájának neve." = "Enter a pseudonym or your initials. Your recordings folder is named after it.";
+"Álnév" = "Pseudonym";
+"Kb. 130 rövid mondatot olvasol fel, 20-at másodszor suttogva is. A felvételek ezen a Macen maradnak, a Pusmogo semmit nem tölt fel." = "You read about 130 short lines aloud, and 20 of them a second time whispering. The recordings stay on this Mac; Pusmogo uploads nothing.";
+"Csak helyben: csak mérésre, ezen a gépen" = "Local only: for measuring, on this Mac only";
+"Megosztás: tanításra és nyilvános tesztkészletbe, álnévvel" = "Release: for training and a public test set, under a pseudonym";
+"Bármikor meggondolhatod magad: töröld a mappát. Ami már megosztott adatkészletbe került, azt utólag nem lehet teljesen visszavonni." = "You can change your mind at any time: delete the folder. Anything already in a shared dataset cannot be fully withdrawn afterwards.";
+"Monogram vagy álnév" = "Initials or pseudonym";
+"Elfogadom" = "I agree";
+"Suttogva" = "Whispered";
+"Felvétel" = "Record";
+"%d / %d" = "%d / %d";
+"Olvasd fel a mondatot, aztán nyomd meg a szóközt (vagy engedd el az fn-t)." = "Read the line aloud, then press Space (or let go of fn).";
+"Nyomd meg a szóközt vagy tartsd lenyomva az fn-t, és olvasd fel a mondatot úgy, ahogy írva van." = "Press Space or hold fn, and read the line aloud as written.";
+"Kész vagy, köszönjük. Minden mondat fel van véve." = "All done, thank you. Every line is recorded.";
+"Mappa megnyitása" = "Open folder";
+"A beleegyezést nem sikerült menteni." = "Could not save the consent.";
+"A mikrofont nem sikerült elindítani." = "Could not start the microphone.";
+"Túl rövid lett, mondd el újra." = "That was too short; read it again.";
+"A felvételt nem sikerült menteni." = "Could not save the recording.";
+"Olvass fel rövid mondatokat, hogy mérni lehessen, mennyire ért a Pusmogo. Csak ezen a Macen marad." = "Read short sentences aloud so Pusmogo's accuracy can be measured. Stays on this Mac.";
+"AI-alkalmazások" = "AI apps";
+"Előzmények megosztása" = "Share dictation history";
+"Szótár és gyorsszövegek megosztása" = "Share dictionary and snippets";
+"A gépeden futó AI-alkalmazások a Pusmogo MCP-szerverén át olvashatják ezeket, módosítani nem tudják. Semmi nem kerül fel a netre." = "AI apps on this Mac can read these through Pusmogo's MCP server, never change them. Nothing goes online.";
+
+/* Settings → AI apps: register the MCP server with a client */
+"Hozzáadva" = "Added";
+"Visszavonás" = "Undo";
+"Elavult" = "Out of date";
+"A beállítás egy áthelyezett vagy törölt Pusmogóra mutat." = "The config points at a Pusmogo that was moved or deleted.";
+"Frissítés" = "Update";
+"A beállításfájl nem olvasható" = "Config file unreadable";
+"A beállításfájl nem olvasható, ezért nem módosítottam." = "The config file could not be read, so it was left unchanged.";
+"Hozzáadva. Indítsd újra: %@." = "Added. Restart %@.";
+"Eltávolítva. Indítsd újra: %@." = "Removed. Restart %@.";
+"Nem sikerült menteni. A fájl változatlan." = "Could not save. The file is unchanged.";
+"Ebben a buildben nincs MCP-szerver." = "This build has no MCP server.";
+"Ez a példány nem az Alkalmazások mappából fut: a beállítás erre a helyre mutat majd." = "This copy is not running from Applications: the config will point at this location.";
+"Rejtett menüikon · panel" = "Menu bar icon hidden · panel";
+"A menüikon nem látszik" = "The menu bar icon is hidden";
+"Túl sok ikon van a menüsoron, ezért a macOS elrejtette. Tartsd lenyomva a ⌘ billentyűt, és húzz le a menüsorról néhány ikont, amire nincs szükséged, vagy lépj ki az appjukból. Addig a ⌃⌥P nyitja meg ezt a panelt." = "The menu bar is too full, so macOS hid Pusmogo's icon. Hold ⌘ and drag icons you don't need off the menu bar, or quit their apps. Until then, ⌃⌥P opens this panel.";
+"Az előzmények fájlja megsérült" = "Your history file was damaged";
+"Új, üres profillal indultam, ezért az előzmények, a szótár és a gyorsszövegek most üresek. A régi fájlt nem töröltem, félretettem." = "Pusmogo started with a new, empty profile, so History, the Dictionary and Snippets are empty for now. The old file was not deleted; it was set aside.";
+"Megmutatás a Finderben" = "Show in Finder";
+"Rendben" = "OK";
+
+/* Profile written by a newer version */
+"Ezt az előzményt egy újabb Pusmogo írta" = "A newer Pusmogo wrote this history";
+"Frissítsd az appot, és visszakapod az előzményeket, a szótárat és a gyorsszövegeket. Addig a diktálás működik, de semmit nem mentek el, és a fájlhoz nem nyúlok." = "Update the app to get your History, Dictionary and Snippets back. Until then dictation works, but nothing is saved and the file is left untouched.";
+"Most az fn ezt is csinálja: %@. Ez ütközik a diktálással." = "Right now fn also does this: %@. That clashes with dictation.";
+"Átállítom" = "Change it";
+"Inkább a jobb ⌥ gombbal diktálok" = "I'll dictate with right ⌥ instead";
+"A %@ is diktál, ugyanúgy, mint az fn." = "%@ dictates too, just like fn.";
+"A Pusmogo HU magyar modell töltődik: %lld%%. Addig az alap modellel diktálsz." = "Downloading the Pusmogo HU Hungarian model: %lld%%. Until then you dictate with the base model.";
+"A Pusmogo HU modell nem töltődött le. %@" = "The Pusmogo HU model did not download. %@";
+"A Pusmogo HU a saját magyar modellünk: gyors, és magyarul kevesebbet téved a legpontosabbnál is. A legpontosabb lassabb, és 2 GB memóriát használ." = "Pusmogo HU is our own Hungarian model: fast, and in Hungarian it makes fewer mistakes than even Most accurate. Most accurate is slower and uses 2 GB of memory.";
+"A saját magyar modellünk." = "Our own Hungarian model.";
+"A Pusmogo HU csak magyarul tud, de azt nagyon. 182 óra magyar beszéden tanítottuk. Olyan gyors, mint az alap modell, és jóval kevesebbet téved." = "Pusmogo HU knows only Hungarian, but knows it well. We trained it on 182 hours of Hungarian speech. It is as fast as the base model and makes far fewer mistakes.";
+"Az alap modell után töltöm le (%@)." = "Downloads after the base model (%@).";
+"A Pusmogo HU töltődik (%@), %lld%%" = "Downloading Pusmogo HU (%@), %lld%%";
+"Kész. A magyar diktálás ezt használja." = "Done. Hungarian dictation uses it.";
+"Letöltés (%@)" = "Download (%@)";
+"Pusmogo HU" = "Pusmogo HU";
+"Whisper large-v3-turbo, csak magyarra tanítva. Ingyenes, a gépeden fut." = "Whisper large-v3-turbo, trained on Hungarian only. Free, runs on your Mac.";
+"Magyar" = "Hungarian";
+"Beszédfelismerés" = "Speech recognition";
+"Megnézem a Hugging Face-en" = "View on Hugging Face";
+"Frissítések automatikus keresése" = "Check for updates automatically";
+"Keresés most" = "Check now";

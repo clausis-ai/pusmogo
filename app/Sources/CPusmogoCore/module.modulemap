@@ -1,0 +1,5 @@
+module CPusmogoCore {
+    header "../../../core/include/pusmogo.h"
+    link "pusmogo_core"
+    export *
+}

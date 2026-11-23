@@ -1,0 +1,12 @@
+[package]
+name = "pusmogo-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+whisper = ["pusmogo-core/whisper"]
+
+[dependencies]
+pusmogo-core = { path = "../pusmogo-core", features = ["wav"] }
+serde_json = "1"

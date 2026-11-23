@@ -1,0 +1,46 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Hold fn in TextEdit
+        2. Say "..."
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Dictation language
+      options: ["Hungarian", "English", "Not related to language"]
+  - type: input
+    id: app
+    attributes:
+      label: Target app
+      description: The app you were dictating into (e.g. Safari, Slack, Terminal)
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: macOS version, Mac model (chip and RAM), Pusmogo version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Anything that helps. Please remove private text before posting.
+  - type: markdown
+    attributes:
+      value: Security problems should be reported privately; see SECURITY.md.

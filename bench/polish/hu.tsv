@@ -1,0 +1,47 @@
+# Hungarian polish set: id<TAB>kind<TAB>input<TAB>reference.
+# input = text as the speech engine types it (before Pusmogo's rule cleanup);
+# reference = what a careful writer would want inserted.
+# kinds: selfcorr (speaker corrects themself: keep only the correction),
+#        commas (missing clause commas), list (missing list commas),
+#        safety (already right: any change is a regression; several hold
+#        "nem", "illetve", "vagyis" used in their ordinary meaning).
+sc01	selfcorr	Holnap háromkor, nem, négykor találkozunk.	Holnap négykor találkozunk.
+sc02	selfcorr	Küldd el Péternek, vagyis inkább Annának a fájlt.	Küldd el Annának a fájlt.
+sc03	selfcorr	A megbeszélés kedden, bocsánat, szerdán lesz.	A megbeszélés szerdán lesz.
+sc04	selfcorr	Vegyél két, nem, három kiló krumplit.	Vegyél három kiló krumplit.
+sc05	selfcorr	10, nem, 20 percet késem.	20 percet késem.
+sc06	selfcorr	Az új verzió pénteken, akarom mondani, csütörtökön jön ki.	Az új verzió csütörtökön jön ki.
+sc07	selfcorr	A számla végösszege 80, javítom, 90 ezer forint.	A számla végösszege 90 ezer forint.
+sc08	selfcorr	Szólj Gábornak, nem, mégis Katának, hogy kész a jelentés.	Szólj Katának, hogy kész a jelentés.
+sc09	selfcorr	Reggel hétkor, illetve inkább nyolckor indulunk.	Reggel nyolckor indulunk.
+sc10	selfcorr	Ezt a Slacken, bocs, e-mailben küldd át.	Ezt e-mailben küldd át.
+cm01	commas	Azt hiszem hogy holnap nem érek oda mert sok a dolgom.	Azt hiszem, hogy holnap nem érek oda, mert sok a dolgom.
+cm02	commas	Ha végeztél a táblázattal szólj és átnézem.	Ha végeztél a táblázattal, szólj, és átnézem.
+cm03	commas	Megkérdeztem a kollégát aki tegnap a szerverrel foglalkozott.	Megkérdeztem a kollégát, aki tegnap a szerverrel foglalkozott.
+cm04	commas	Amikor hazaértem már mindenki aludt.	Amikor hazaértem, már mindenki aludt.
+cm05	commas	Nem tudom pontosan mikor indul a vonat.	Nem tudom pontosan, mikor indul a vonat.
+cm06	commas	Szerintem jobb lenne ha a prezentációt holnapra halasztanánk.	Szerintem jobb lenne, ha a prezentációt holnapra halasztanánk.
+cm07	commas	A könyv amit ajánlottál nagyon tetszett.	A könyv, amit ajánlottál, nagyon tetszett.
+cm08	commas	Elmentem a boltba de már zárva volt.	Elmentem a boltba, de már zárva volt.
+cm09	commas	Mivel esik az eső inkább otthon maradunk.	Mivel esik az eső, inkább otthon maradunk.
+cm10	commas	Megírtam a levelet amelyben részletesen leírtam a problémát és elküldtem a csapatnak.	Megírtam a levelet, amelyben részletesen leírtam a problémát, és elküldtem a csapatnak.
+cm11	commas	Szia Péter köszönöm a gyors választ.	Szia Péter, köszönöm a gyors választ.
+cm12	commas	Kérlek nézd meg a hibát mielőtt kiadjuk az új verziót.	Kérlek, nézd meg a hibát, mielőtt kiadjuk az új verziót.
+cm13	commas	Tudod hol van a kulcs?	Tudod, hol van a kulcs?
+cm14	commas	Igen ezt holnapra megcsinálom.	Igen, ezt holnapra megcsinálom.
+cm15	commas	Bár fáradt voltam befejeztem a munkát.	Bár fáradt voltam, befejeztem a munkát.
+ls01	list	Vegyél tejet kenyeret tojást és sajtot.	Vegyél tejet, kenyeret, tojást és sajtot.
+ls02	list	A csomagban van egy töltő egy kábel és egy rövid leírás.	A csomagban van egy töltő, egy kábel és egy rövid leírás.
+ls03	list	Hétfőn kedden és csütörtökön vagyok az irodában.	Hétfőn, kedden és csütörtökön vagyok az irodában.
+ls04	list	A csapatban Anna Bence Dóra és Gergő dolgozik.	A csapatban Anna, Bence, Dóra és Gergő dolgozik.
+ls05	list	Kell még egy logó egy színpaletta és két betűtípus.	Kell még egy logó, egy színpaletta és két betűtípus.
+sf01	safety	Nem, nem megyek el holnap.	Nem, nem megyek el holnap.
+sf02	safety	Ez nem kettő, hanem három.	Ez nem kettő, hanem három.
+sf03	safety	Nem a pénteki, hanem a szombati vonattal jövök.	Nem a pénteki, hanem a szombati vonattal jövök.
+sf04	safety	Hozz kenyeret, illetve ha van, egy kis sajtot is.	Hozz kenyeret, illetve ha van, egy kis sajtot is.
+sf05	safety	A határidő péntek, vagyis két napunk maradt.	A határidő péntek, vagyis két napunk maradt.
+sf06	safety	Szerinted ez jó ötlet vagy nem?	Szerinted ez jó ötlet vagy nem?
+sf07	safety	A deploy után a CI pipeline zöld lett.	A deploy után a CI pipeline zöld lett.
+sf08	safety	Kovács Anna 2025. március 3-án 14:30-kor érkezik.	Kovács Anna 2025. március 3-án 14:30-kor érkezik.
+sf09	safety	Bocsánat, hogy csak most válaszolok.	Bocsánat, hogy csak most válaszolok.
+sf10	safety	Kérek egy kávét és egy pohár vizet.	Kérek egy kávét és egy pohár vizet.

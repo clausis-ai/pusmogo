@@ -1,0 +1,64 @@
+# English language pack for the rule-based cleanup (`cleanup.rs`).
+# Compiled into the core with `include_str!`; see docs/adding-a-language.md.
+# Words are lower case and without punctuation.
+
+language = "en"
+
+# Hesitation sounds that are dropped.
+fillers = ["um", "umm", "uh", "uhh", "uhm", "erm", "er", "hm", "hmm", "hmmm", "mm", "mhm"]
+
+# Short function words whose immediate repetition is always a stutter.
+# Words that can legitimately repeat ("that that", "had had") stay out.
+stutter_words = ["the", "an", "and", "to", "of", "i", "in", "on", "for", "with"]
+
+# Abbreviations that end with a full stop but do not end a sentence.
+abbreviations = ["mr", "mrs", "ms", "vs", "etc", "e.g", "i.e", "st", "jr", "sr", "prof", "no"]
+
+# Abbreviations that only count as such in lower case ("max. five minutes").
+lowercase_abbreviations = ["max", "min"]
+
+# Words that make the next word a noun, not a spoken command ("the period",
+# "a trial period").
+noun_markers = [
+    "the", "an", "this", "that", "each", "every",
+    "trial", "grace", "notice", "waiting", "billing", "reporting", "time", "same",
+]
+
+# Commands that are also everyday words ("the period"): they count only at
+# the end of the dictation, before Whisper's own punctuation or before
+# another command.
+ambiguous_marks = ["period"]
+
+# Words whose full stop stays when a casual style drops the final full stop of
+# a message ("Apples, pears etc."). Kept apart from `abbreviations` so "no"
+# ends a casual message without a stop.
+keep_final_stop = ["etc", "inc", "ltd", "vs", "co", "jr", "sr", "approx"]
+
+# Number and date words, used to spot spoken self-corrections
+# ("at three, no, at four"). Matched as whole words.
+number_words = [
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+    "twelve", "fifteen", "twenty", "thirty", "forty", "fifty", "sixty", "hundred", "thousand",
+]
+when_words = [
+    "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
+    "today", "tomorrow", "tonight", "yesterday", "morning", "afternoon", "evening",
+]
+
+# Spoken punctuation and layout commands; see the Hungarian pack for the format.
+[marks]
+paragraph = ["new paragraph"]
+line = ["new line"]
+question = ["question mark"]
+exclamation = ["exclamation mark", "exclamation point"]
+semicolon = ["semicolon"]
+comma = ["comma"]
+full_stop = ["full stop", "period"]
+
+# Spoken brackets and quotes. English quotes are straight (safe in code).
+[paired]
+open_paren = ["open bracket", "open paren", "open parin", "open parenthesis"]
+close_paren = ["close bracket", "close paren", "close parin", "close parenthesis"]
+open_straight_quote = ["open quote"]
+close_straight_quote = ["close quote", "end quote", "unquote"]
+straight_quote = ["quote"]
